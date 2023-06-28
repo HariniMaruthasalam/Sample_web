@@ -1,0 +1,77 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero_section {
+  padding: 300px;
+  text-align: center;
+  background:linear-gradient(rgba(234, 202, 202, 0.5), rgba(154, 176, 225, 0.5)),url("https://miro.medium.com/v2/resize:fit:720/format:webp/1*h9jk3UdIaroS9rBsRvu2bQ.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text_container {
+  margin-bottom: 30px;
+}
+
+.lg_text {
+  font-size: 28px;
+}
+
+
+.black_box {
+  background-color: #000;
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.black_box h2 span {
+  color: #ffcc00;
+}
+
+
+.work {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 30px;
+}
+
+.card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.card_content {
+  margin-top: 20px;
+}
+
+/* Bottom section */
+.bottom_section {
+  text-align: center;
+  line-height: 2;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.contact,
+.about {
+  flex: 1;
+  padding-right: 30px;
+}
+
+/* Footer */
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
